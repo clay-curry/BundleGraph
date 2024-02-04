@@ -1,6 +1,15 @@
 # Dynapack
 
-A webpack instrumentation factory for animating, validating, and tuning bundlers at scale
+What is Dynapack? Thanks for asking! It's really by personal assortment of tools, instrumentation patterns, educative examples, and sources of information
+
+
+#### Etymology
+Dyna- "dynamic structure", "dynamyte"
+pack- "webpack", "turbopack"
+
+
+
+instrumentation factory for static module bundlers, animating, validating, and tuning bundlers at scale
 
 ## Using this example
 

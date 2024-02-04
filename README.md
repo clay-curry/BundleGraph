@@ -1,6 +1,6 @@
-# Turborepo starter
+# Dynapack
 
-This is an official starter Turborepo.
+A webpack instrumentation factory for animating, validating, and tuning bundlers at scale
 
 ## Using this example
 

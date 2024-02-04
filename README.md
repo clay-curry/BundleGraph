@@ -1,6 +1,6 @@
 # Dynapack
 
-What is Dynapack? Thanks for asking! It's really by personal assortment of tools, instrumentation patterns, educative examples, and sources of information
+What is Dynapack? Thanks for asking! It's my by personal assortment of thoughts and 
 
 
 #### Etymology

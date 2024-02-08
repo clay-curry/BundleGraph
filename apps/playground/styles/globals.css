@@ -1,0 +1,47 @@
+/*
+## Usage
+
+    <link href=preset.css rel=stylesheet>
+
+## Info
+
+- author: Tommy Hodgins
+- license: MIT
+- website: https://github.com/tomhodgins/preset
+
+*/
+
+* {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-kerning: auto;
+}
+
+html, body {
+    position: absolute;
+  top: 0px;
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: Jura-Bold;
+  src: url('../fonts/jura/static/Jura-Bold.ttf');
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+  color: #333;
+  font-family: Jura-Bold, sans-serif;
+  font-size: 2em;
+  text-align: center;
+}

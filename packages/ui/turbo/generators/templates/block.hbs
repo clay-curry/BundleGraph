@@ -1,0 +1,26 @@
+interface {{ pascalCase name }}Props {
+  children: React.ReactNode
+  {{#each props as |prop|}}
+  {{prop}}: {{ lookup ../propTypes prop}},
+  {{/each}}
+}
+
+export const {{ pascalCase name }} = (
+  { 
+    {{#each props as |prop|}}
+    {{prop}},
+    {{/each}}
+    children,
+    ...props
+  }: {{ pascalCase name }}Props) => {
+  return (
+    <{{ tag }}
+      {{#each props as |prop|}}
+      {{{jsxProp prop}}}
+      {{/each}}
+      {...props}
+    >
+      {children}
+    </{{ tag }}>
+  );
+}

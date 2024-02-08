@@ -1,15 +1,104 @@
-# Dynapack
+# Dynapack Project
 
-What is Dynapack? Thanks for asking! It's my by personal assortment of thoughts and 
+This project has two introductions: 
 
+1. one addressed to me 14 months back ("Mr. 'pip' ninja"),
+2. one addressed to me today[^1]
+[^1]: (still "Mr. 'pip' ninja", now only 14 months nearer to void)
+
+
+## Introduction for "Mr. 'pip' ninja"
+
+A Webpack dashboard? That's *quite* an interesting project, especially 
+
+
+
+## Introduction for "Mr. 'pip' ninja" (14 months later)
+
+
+
+
+
+
+Dynapack is a dead-simple, [OTel Compliant](https://opentelemetry.io/docs/specs/otel/common/) instrumentation framework for **static module bundlers**, **module federations**, and **runtime hosts**. Two reasons were paramount motivate our interest were considered activities of these systems, internal to 
+
+is not expected
+
+
+developers the clearest vantage of the logic behind their madness.
+
+Now if extinguishing dependency hell was simply not concincing use of your time, perhaps 
+
+
+
+, Dynapack fulfills a higher goal of are those who identify as independent learners. of independent and small-budget teams. To ensure design principles, Dynapack also serves 
+
+
+
+
+As a proof of concept, the Dynapack 
+
+
+
+ UI was designed with "no magic numbers" learning resources into the anatomy and physiology of 
+
+
+help for developers climbing the steep learning curve of module systems and module bundlers. Dynapack is a specification for how to receive, process, and export telemetry data. A single binary that can be deployed as an agent or gateway. 
+
+
+
+For maintainers, Dynapack is a framework for defining fundmamental units of work (a.k.a. ***spans***) relevant to the users of their codebase.
+
+
+
+new design space for debugging tools  
+
+
+. Importantly, 
+
+What results from this is a build system 
+
+
+
+Though full-support for Webpack will be intended  vendor-agnostic and tool-agnostic,
+
+
+
+
+
+
+ both static and dynamic data, Dynapack can be used to analyze, validate, and optimize module systems and module bundlers at scale.
+
+
+
+
+The task of tranforming a system of modules from one specification often delegated to "module bundlers". In 
+
+
+Dynapack is a specification for how to receive, process, and export telemetry data. A single binary that can be deployed as an agent or gateway. 
+
+## Features
+- **toolchain observability**: shell-based programs cannot show the logic happening underneath.
+
+
+
+ between module systems and module bundlers, animating, validating, and tuning bundlers at scale.
+
+
+and vendor-agnostic specification of how to receive, process, and export 
+
+
+telemetry data. A single binary that can be deployed as an agent or gateway.
+
+ module systems and module bundlers, animating, validating, and tuning bundlers at scale
 
 #### Etymology
 Dyna- "dynamic structure", "dynamyte"
-pack- "webpack", "turbopack"
+pack- "package", "webpack", "turbopack",
 
 
 
-instrumentation factory for static module bundlers, animating, validating, and tuning bundlers at scale
+
 
 ## Using this example
 

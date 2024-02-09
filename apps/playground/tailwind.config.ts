@@ -1,13 +1,14 @@
 const { fontFamily } = require("tailwindcss/defaultTheme")
+import type { Config } from "tailwindcss";
 
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  darkMode: ["class"],
-  
+
+const config: Config = {
   content: [
-    ///"./app/**/*.tsx?"
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./styles/**/*.{js,ts,jsx,tsx,mdx}"
   ],
-
+  darkMode: ["class"],  
   extend: {
     colors: {
       border: "hsl(var(--border))",
@@ -69,5 +70,6 @@ module.exports = {
       "accordion-up": "accordion-up 0.2s ease-out",
     },
   },
-  plugins: [require("tailwindcss-animate")],
-}
+  plugins: [require("tailwindcss-animate")]
+};
+export default config;

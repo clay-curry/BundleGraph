@@ -1,39 +1,46 @@
-
-import '@/styles/globals.css'
-import SideBar from './sidebar';
-import theme from '@/theme';
-import CssBaseline from '@mui/material/CssBaseline';
+import '@/styles/globals.css';
+import * as React from 'react';
+import { AppRouterCacheProvider } from '@mui/material-nextjs/v14-appRouter';
 import { ThemeProvider } from '@mui/material/styles';
+import CssBaseline from '@mui/material/CssBaseline';
+import theme from '@/theme';
 
-import { Metadata } from 'next';
+import SideNav, { NavButtonProps } from './sidenav';
+import Header from './header';
 
-export const metadata: Metadata = {
-  title: 'Dynapack',
-  description: 'Dynapack is a dynamic bundle analyzer for modern static module bundlers.',
-  keywords: [
-    'program analysis',
-    'webpack',
-    'turbopack',
-    'esbuild'
-  ]
-}
+
+
+const links: NavButtonProps[] = [
+  {
+    label: 'Source Map',
+    href: '/source-map',
+    icon: <svg />
+  },
+  {
+    label: 'Bundler',
+    href: '/bundler',
+    icon: <svg />
+  }
+]
+
 
 export default function RootLayout(props: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>
-          <ThemeProvider theme={theme}>
-            {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
-            <CssBaseline />
-            
-        <div className='flex w-full'>
-            <div className='absolute r-0'>
-              {props.children}
-            </div>
-        </div>
+      <body className='flex h-full'>
+      <AppRouterCacheProvider options={{ enableCssLayer: true }}>
+      <ThemeProvider theme={theme}>
+      <CssBaseline />
 
-          </ThemeProvider>
+          <Header />
+          <SideNav links={links} />
+          <main className='w-auto'>
+          {props.children}
+          </main>
+
+      </ThemeProvider>
+      </AppRouterCacheProvider>
       </body>
     </html>
   );
-}
+};

@@ -1,89 +1,66 @@
 # Dynapack
 
-Dynapack is a software stack to facilitate auto instrumentation, visual analysis, and automatic  performance tuning of bundler configs for dev-time, run-time, build-time, and X-time (X = you decide).
-
-The Tracing Protocol ABI consists of the following binary interfaces that allow various processes in the operating system to contribute to tracing sessions and inject tracing data into the tracing service:
-
+For any enterprise engaged with in software tooling, there must be a a vested interest to characterize, or better yet *predict*, the key factors responsible for the  differential success and failure of certain tools / practices used by the masses of software developers.
+Of these, 
 
 
- bundler optimization 
-
-. It offers services and libraries for recording system-level and app-level traces, native + java heap profiling, a library for analyzing traces using SQL and a web-based UI to visualize and explore multi-GB traces.
-
-provides auto-instrumentation for Webpack
-
-. It is a specification for how to receive, process, and export telemetry data. A single binary that can be deployed as an agent or gateway.
-
-to emit telemetry required to facilitate bundler optimization
-
-
-and **module federations**. Whether bundles are instrumented manually or  using Dynapack's auto-instrumentation tooling, the resulting bundles are permanently_ reconfigurable_ bundle with greater capability of emitting telemetry, with as-needed specificity, regardless of the host environment
-on an as-needed that can be used to analyze, validate, and optimize module systems and module bundlers at scale.
-
-With affording greater investigatory tooling in the form of source maps, project recommendations, code mods, and graphical tools for catching potential bottlenecks. Depending on the module system including direct and transitive dependency** chains** including circular, where symbols resolve to possibly multiple targets of **federated modules**, with computations executed by **multiple intercommunicating hosts/clients.** 
+reduces selective pressures control the adoption 
 
 
 
-## Design Goals
-
-Perhaps with this one topic more than all others combined, considerable effort is invested to elucidate possible logical structures a programmer might adopt to conceptualize structure of their codebase.
-
-Dynamically rendered Class Diagrams show the anatomy and physiology of various class structures
-
-
-For maintainers, Dynapack is a framework for defining fundmamental units of work (a.k.a. ***spans***) relevant to the users of their codebase.
+facilitate key stages developers plan, design, develop, test, bundle, and distribute software products or projects that are secure, reliable, and performant. 
 
 
 
-new design space for debugging tools  
 
-
-. Importantly, 
-
-What results from this is a build system 
-
-
-
-Though full-support for Webpack will be intended  vendor-agnostic and tool-agnostic,
+"bundle" has seen rapid convergence in the last decade.
 
 
 
 
 
-
- both static and dynamic data, Dynapack can be used to analyze, validate, and optimize module systems and module bundlers at scale.
-
+of software is a tradition handed down from the days of mainframes and minicomputers. The resulting architectures are complex and difficult to debug. Dynapack is a systems-level debugger for micro front-ends and module federations. 
 
 
+principle software is manifactured only by other software, has important tradeoffs secure, reliable, and performant.
 
-The task of tranforming a system of modules from one specification often delegated to "module bundlers". In 
 
-
-Dynapack is a specification for how to receive, process, and export telemetry data. A single binary that can be deployed as an agent or gateway. 
-
-## Features
-- **toolchain observability**: shell-based programs cannot show the logic happening underneath.
+ execution of other software. 
 
 
 
- between module systems and module bundlers, animating, validating, and tuning bundlers at scale.
-
-
-and vendor-agnostic specification of how to receive, process, and export 
-
-
-telemetry data. A single binary that can be deployed as an agent or gateway.
-
- module systems and module bundlers, animating, validating, and tuning bundlers at scale
-
-#### Etymology
-Dyna- "dynamic structure", "dynamyte"
-pack- "package", "webpack", "turbopack",
+ is a tradition handed down from the days of . The resulting architectures are complex and difficult to debug. Dynapack is a systems-level debugger for micro front-ends and module federations.
 
 
 
-## Useful Links
 
-Learn more about the power of OpenTelemetry, Profiling, and Tooling for Tooling
+is The resulting architectures are complex and difficult to debug. Dynapack is a systems-level debugger for micro front-ends and module federations.
 
-- [P
+
+languages that are used to bootstrap the development of software
+- like C and C++ can be thought of as framework for making assembly code
+- compilers 
+- come with an official or unofficial registries for 
+- Python has large registrys evidenced most popular languages 
+
+
+
+
+
+Such frameworks JavaScript is analogous to  
+
+
+However, the resulting architectures are complex and difficult to debug. Dynapack is a systems-level debugger for micro front-ends and module federations.
+
+ bootstrap properties of scale job of debugging modern web applications architectures  micro front-end and module federation defy the 
+
+
+
+are complex and difficult to debug. Dynapack is a systems-level debugger for micro front-ends and module federations.
+
+Dynapack is a systems-level system-level debugger for micro front-ends and module federations
+
+
+## Depedencies
+
+Dynapack's approach to ystem profiling, app tracing and trace analysis

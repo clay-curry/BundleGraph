@@ -1,8 +1,10 @@
 export default function Page() {
 
     return (
-        <div>
             <section className="hero">
+                <p>
+                    Dynapack is an instrumentation framework for static module bundlers and distributed module federations, with visual and interactive debugging and optimization features helping both developers and maintainers alike to configure more performant builds.
+                </p>
                 <p className="container">
                     Dynapack was forged in a design space that simply did not exist 5 years ago. Software architectures back then were 
                     
@@ -20,6 +22,5 @@ export default function Page() {
                 </p>
 
             </section>
-        </div>
     )
 }

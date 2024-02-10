@@ -1,3 +1,18 @@
+/*
+
+**Dynamic color** - new feature of Material You in which colors are systemically formed  
+Adeveloped algorithmically to facility scalable
+
+- a user's wallpaper to be applied to their apps and system UI.
+
+Luminance
+Dynamic color is built to work across unpredictable contexts. To manage contrast ratios in various viewing contexts, luminance levels are the key attribute that allow colors to combine successfully even without the product team testing each specific color combination.
+
+
+*/
+
+
+
 import * as React from 'react';
 // import setTheme from '@mui/material/styles/setTheme'
 import createTheme from '@mui/material/styles/createTheme';
@@ -8,11 +23,11 @@ import type {} from '@mui/lab/themeAugmentation';
 import '@mui/lab/themeAugmentation';
 import Button from '@mui/material-next/Button';
 
-import blueTheme from '../styles/blue-theme.json';
-import greenTheme from '../styles/green-theme.json';
-import purpleTheme from '../styles/purple-theme.json';
-import redTheme from '../styles/red-theme.json';
-import yellowTheme from '../styles/yellow-theme.json';
+import blueTheme from '@/styles/blue-theme.json';
+import greenTheme from '@/styles/green-theme.json';
+import purpleTheme from '@/styles/purple-theme.json';
+import redTheme from '@/styles/red-theme.json';
+import yellowTheme from '@/styles/yellow-theme.json';
 
 type themesTypes = typeof blueTheme
 | typeof greenTheme

@@ -28,8 +28,6 @@ interface NavItem {
   icon?: React.ReactNode;
 }
 
-interface 
-
  
 export default function AppBar(navItems: NavItem[]) {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);

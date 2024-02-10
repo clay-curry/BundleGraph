@@ -147,11 +147,7 @@ export default function AppBar(navItems: NavItem[]) {
       open={isDrawerOpen}
       onClose={handleDrawerClose}
     >
-      {navItems && navItems.map((item) => (
-        <MenuItem key={item.href} onClick={handleDrawerClose}>
-          <Link href={item.href}>{item.label}</Link>
-        </MenuItem>
-      ))}
+      {navItems}
     </Drawer>
   );
 
@@ -171,10 +167,13 @@ export default function AppBar(navItems: NavItem[]) {
             <MenuIcon />
           </IconButton>
           <Typography
-            variant="h6"
             noWrap
-            component="div"
-            sx={{ display: { xs: 'none', sm: 'block' } }}
+            component="h1"
+            sx={{ 
+              display: { xs: 'none', sm: 'block' },
+              fontWeight: '800',
+              fontSize: 30
+            }}
           >
             Dynapack
           </Typography>

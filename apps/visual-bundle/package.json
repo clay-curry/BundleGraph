@@ -1,0 +1,40 @@
+{
+  "name": "shell",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@material/material-color-utilities": "^0.2.7",
+    "@material/web": "^1.2.0",
+    "@mui/icons-material": "^5.15.8",
+    "@mui/lab": "5.0.0-alpha.165",
+    "@mui/material": "^5.15.9",
+    "@mui/material-next": "6.0.0-alpha.122",
+    "@mui/utils": "^5.15.9",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-scripts": "latest",
+    "typescript": "latest"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

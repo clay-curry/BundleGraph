@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      "@color/*": ["./src/colors/*.json"],
+      "@shell/*": ["apps/shell/src/*"],
+      "@bundle/*": ["apps/bundle/src/*"],
+      "@visual-webpack/*": ["apps/visual-webpack/src/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

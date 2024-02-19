@@ -1,5 +1,21 @@
 import * as React from 'react';
 import { styled } from '@mui/material/styles';
+import { createTheme } from '@mui/material/styles';
+
+// ===================
+// this module was directly 
+
+declare module '@mui/material/styles' {
+  interface Components {
+    MuiStat: {
+      styleOverrides: {
+        root: {},
+        value: {},
+        unit: {},
+      },
+    };
+  }
+}
 
 
 // ===================
@@ -40,9 +56,13 @@ const StatUnit = styled('div', {
 // ===================
 // 2. Create the component
 // Assemble the component using the slots created in the previous step:
+interface Props {
+  value: string;
+  unit: string;
+}
 
 
-const Stat = React.forwardRef(
+const Stat = React.forwardRef<HTMLDivElement, Props>(
     // render: The render function for your component. React calls this function with 
     // the 'props' and 'ref' that your component received from its parent. 
     // 
@@ -68,10 +88,8 @@ const Stat = React.forwardRef(
 export default Stat;
 
 
+
 // 3. At this point, you'll be able to apply the theme to the Stat component like this:
-
-
-import { createTheme } from '@mui/material/styles';
 
 const theme = createTheme({
   components: {

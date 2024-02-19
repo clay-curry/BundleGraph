@@ -13,7 +13,14 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react"
+    "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      "@color/*": ["./src/colors/*.json"],
+      "@shell/*": ["apps/shell/src/*"],
+      "@bundle/*": ["apps/bundle/src/*"],
+      "@visual-webpack/*": ["apps/visual-webpack/src/*"]
+    }
   },
-  "include": ["src"]
+  "exclude": ["node_modules"]
 }

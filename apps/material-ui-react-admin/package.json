@@ -10,6 +10,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@mui/icons-material": "^5.15.8",
     "@mui/material": "^5.15.9",
     "Book": "link:@mui/icons-material/Book",
     "ChatBubble": "link:@mui/icons-material/ChatBubble",

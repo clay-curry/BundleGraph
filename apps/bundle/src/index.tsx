@@ -1,9 +1,5 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom/client';
-import { CssVarsProvider }  from '@mui/material-next/styles';
-import RailDrawer from './components/Shell';
-
-import AppBar from './components/AppBar';
 
 const rootElement = document.body;
 ReactDOM.createRoot(rootElement!).render(
@@ -12,9 +8,8 @@ ReactDOM.createRoot(rootElement!).render(
 
 export default function App() {
   return (
-    <CssVarsProvider>    
-      <AppBar />
-      <RailDrawer />
-    </CssVarsProvider>
+    <div>
+      <h1>Bundle</h1>
+    </div>
   )
 };

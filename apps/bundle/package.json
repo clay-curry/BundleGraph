@@ -8,6 +8,7 @@
     "react": "latest",
     "react-dom": "latest",
     "react-scripts": "latest",
+    "reactflow": "^11.10.4",
     "typescript": "latest"
   },
   "scripts": {

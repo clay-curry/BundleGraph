@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
 
 import type { Metadata } from "next";
-import { AppBar, NavigationRail } from "../components/SideNav";
+import { AppBar, BodyWrapper, NavigationRail } from "../components/Shell";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,12 +16,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <AppBar />
-        <div id="root" className="flex items-center justify-center">
-          <NavigationRail />
-          <div className="m-[80px]">
+        <div id="root" className="h-[100dvh] flex align-top items-start overflow-hidden relative overscroll-none">
+          <BodyWrapper>
             {children}
-          </div>
+          </BodyWrapper>
+          <NavigationRail />
+          <AppBar />
           </div>
       </body>
     </html>

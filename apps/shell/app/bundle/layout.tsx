@@ -1,4 +1,4 @@
-import { AppBar } from "../../components/SideNav"
+import { AppBar } from "../../components/Shell"
 
 const leaves = [
     {

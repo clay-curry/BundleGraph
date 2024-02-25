@@ -66,7 +66,7 @@ export default function Flow() {
   );
 
   return (
-    <div className="h-full w-full ml-[80px]">
+    <div className="h-full w-full">
     <ReactFlow
       nodes={nodes}
       nodeTypes={nodeTypes}

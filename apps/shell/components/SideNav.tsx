@@ -119,7 +119,7 @@ const destinations = [
       aria-expanded={isExpanded}
       className={
         cn(
-          "text-xs fixed top-0 left-0 h-full w-[80px] z-0 flex flex-col justify-between pt-10 pb-6 bg-white shadow-[0_1px_2px] border-r-[1px] border-solid border-black",
+          "text-xs fixed top-0 left-0 h-dvh w-[80px] z-0 flex flex-col justify-between pt-10 pb-6 bg-white shadow-[0_1px_2px] border-r-[1px] border-solid border-black",
           "border-r-[1px] border-solid border-black",
           "")}>
       {NavButtons}
@@ -134,7 +134,7 @@ export function AppBar(){
   const isExpanded = pathname != '/playground';
   
   return (
-  <header aria-expanded={isExpanded} className='fixed z-[1] top-[-60px] left-0 w-full h-[60px] bg-white shadow-[0_1px_2px] transition ease-in-out duration-700 aria-expanded:translate-y-full'>      
+  <header aria-expanded={isExpanded} className='fixed z-[1] top-[-60px] left-0 w-[100dvw] h-[60px] bg-white shadow-[0_1px_2px] transition ease-in-out duration-700 aria-expanded:translate-y-full'>      
     <div className="flex items-center justify-between h-full px-4">
         <div className="flex items-center gap-4">
           <h1 className="text-2xl font-bold">Dynapack</h1>

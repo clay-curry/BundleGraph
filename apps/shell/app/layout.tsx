@@ -16,10 +16,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div id="root" className="flex items-center justify-center h-full w-full">
-          <AppBar />
+        <AppBar />
+        <div id="root" className="flex items-center justify-center">
           <NavigationRail />
-          <div className="ml-20">
+          <div>
             {children}
           </div>
           </div>

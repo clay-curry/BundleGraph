@@ -239,17 +239,11 @@ const destinations = [
         name: "Home",
         target: "/",
         icon: 'home'
-
     },
     {
-        name: "Playground",
-        target: "/playground",
-        icon: 'toys_fan'
-    },
-    {
-        name: "Tuning",
-        target: "/analytics",
-        icon: 'query_stats'
+      name: "Tuning",
+      target: "/analytics",
+      icon: 'query_stats'
     },
     {
         name: "Collectors",
@@ -257,15 +251,20 @@ const destinations = [
         icon: 'lan'
     },
     {
-        name: 'Experiments',
-        target: "/experiments",
+      name: 'Experiments',
+      target: "/experiments",
         icon: 'labs',
-    },
-    {
+      },
+      {
       name: 'Federations',
       target: "/module-federation",
       icon: 'sync_lock'
-    }
+    },
+    {
+        name: "Playground",
+        target: "/playground",
+        icon: 'toys_fan'
+    },
   ]
 
   const NavButtons = (
@@ -354,7 +353,7 @@ export function AppBar(){
   <header aria-expanded={isExpanded} className='fixed z-[1] top-[-60px] left-0 w-full h-[60px] bg-white shadow-[0_1px_2px] transition ease-in-out duration-700 aria-expanded:translate-y-full'>      
     <div className="flex items-center justify-between h-full px-4">
         <div className="flex items-center gap-4">
-          <h1 className="text-xl font-bold">Dynapack</h1>
+          <h1 className="text-2xl font-bold">Dynapack</h1>
         </div>
         <div className="flex items-center gap-4">
           <div className="material-symbols-outlined text-black" aria-hidden>search</div>

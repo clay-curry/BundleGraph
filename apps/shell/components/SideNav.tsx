@@ -20,34 +20,34 @@ export function NavigationRail() {
 
 const destinations = [
     {
-        name: "Home",
-        target: "/",
-        icon: 'home'
-    },
-    {
-      name: "Tuning",
-      target: "/analytics",
-      icon: 'query_stats'
-    },
-    {
-        name: "Collectors",
-        target: "/collectors",
-        icon: 'lan'
-    },
-    {
-      name: 'Experiments',
-      target: "/experiments",
-        icon: 'labs',
-      },
-      {
-      name: 'Federations',
-      target: "/module-federation",
-      icon: 'sync_lock'
+      name: "Home",
+      target: "/",
+      icon: 'home'
     },
     {
         name: "Playground",
         target: "/playground",
         icon: 'toys_fan'
+    },
+    {
+      name: "Bundle",
+      target: "/bundle",
+      icon: 'lan'
+    },
+    {
+      name: 'Debundle',
+      target: "/debundle",
+      icon: 'diversity_2',
+    },
+    {
+      name: "Optimize",
+      target: "/optimize",
+      icon: 'query_stats'
+    },
+    {
+      name: 'Federation',
+      target: "/module-federation",
+      icon: 'sync_lock'
     },
   ]
 

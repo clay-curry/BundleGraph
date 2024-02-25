@@ -1,10 +1,10 @@
 {
-  "name": "imagepack",
+  "name": "dynapack",
   "private": true,
   "scripts": {
-    "build": "turbo build",
-    "dev": "turbo dev --filter playground",
-    "start": "turbo start",
+    "build": "turbo build --filter shell",
+    "dev": "turbo dev --filter shell",
+    "start": "turbo start --filter shell",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },

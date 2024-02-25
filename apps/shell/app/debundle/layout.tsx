@@ -38,7 +38,7 @@ export default function Layout({children}: {children: React.ReactNode}) {
         <section>
 
             <header>
-                <h1>Collectors</h1>
+                <h1>Debundle</h1>
             </header>
             <main>
                 {children}

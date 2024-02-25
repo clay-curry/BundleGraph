@@ -19,7 +19,7 @@ export default function RootLayout({
         <AppBar />
         <div id="root" className="flex items-center justify-center">
           <NavigationRail />
-          <div>
+          <div className="m-[80px]">
             {children}
           </div>
           </div>

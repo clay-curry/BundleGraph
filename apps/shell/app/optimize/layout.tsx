@@ -4,6 +4,7 @@ import { AppBar } from "../../components/SideNav"
 export default function Layout({children}: {children: React.ReactNode}) {
     return (
     <main>
+        Optimize
         {children}
     </main>
     )

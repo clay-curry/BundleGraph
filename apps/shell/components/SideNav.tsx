@@ -1,15 +1,15 @@
 "use client"
 import "material-symbols"
-import * as Accordion from '@radix-ui/react-accordion';
-import * as NavigationMenu from '@radix-ui/react-navigation-menu';
 
 import { twMerge } from "tailwind-merge"
 import { clsx, type ClassValue } from "clsx"
+export const cn = (...inputs: ClassValue[]) => twMerge(clsx(inputs))
+
 import { usePathname } from "next/navigation"; 
-import React, { createRef, Ref, useState } from 'react';
+import React from 'react';
 
 import Link from "next/link";
-export const cn = (...inputs: ClassValue[]) => twMerge(clsx(inputs))
+import ThemeControls from "./ThemeControls";
 
 const CaretDownIcon = ({className, ...props}: { className?: string }) => <span {...props} className={ cn("material-symbols-outlined", className) }>expand_more</span>
 
@@ -141,7 +141,7 @@ export function AppBar(){
         </div>
         <div className="flex items-center gap-4">
           <div className="material-symbols-outlined text-black" aria-hidden>search</div>
-          <div className="material-symbols-outlined text-black" aria-hidden>palette</div>
+          <ThemeControls />
         </div>
       </div>
     </header>

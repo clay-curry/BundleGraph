@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
 
 import type { Metadata } from "next";
-import { AppBar, NavigationMenuDemo, NavigationRail } from "../components/SideNav";
+import { AppBar, NavigationRail } from "../components/SideNav";
 
 export const metadata: Metadata = {
   title: "Create Next App",

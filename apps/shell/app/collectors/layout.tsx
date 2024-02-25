@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { AppBar } from '../SideNav';
+import { AppBar } from '../../components/SideNav';
 
 const leaves = [
     {

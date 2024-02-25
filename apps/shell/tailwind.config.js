@@ -6,6 +6,7 @@ module.exports = {
   content: [
     './app/**/*.{ts,tsx,html}',
     './public/**/*.{ts,tsx,html}',
+    './components/**/*.{ts,tsx,html}'
   ],
   theme: {
     extend: {

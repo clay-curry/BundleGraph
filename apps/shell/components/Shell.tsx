@@ -38,7 +38,7 @@ export default function ThemeControls() {
     </DropdownMenu.Trigger>
 
     <DropdownMenu.Portal>
-        <DropdownMenu.Content className={"absolute flex flex-col translate-x-[-100%] justify-center items-center text-[16px] bg-[rgb(234,224,226)] h-[572px] w-[256px] pt-2 [--radix-dropdown-menu-trigger-width:24px] [--radix-dropdown-menu-trigger-height:24px] transition delay-150 duration-100 ease-in-out data-[state=open]:animate-bounce" + font.className}>
+        <DropdownMenu.Content className={"absolute flex flex-col translate-x-[-100%] justify-center items-center text-[16px] bg-[rgb(234,224,226)] h-[572px] w-[256px] pt-2 [--radix-dropdown-menu-trigger-width:24px] [--radix-dropdown-menu-trigger-height:24px] transition delay-150 duration-600 ease-in-out data-[state=open]:animate-bounce" + font.className}>
             <DropdownMenu.Label asChild >
             <div className="flex flex-row justify-between w-[224px] h-[24px] mb-4">
                 <h2 className="text-[24px] font-bold text-center h-6"> Theme Controls </h2>
@@ -158,17 +158,17 @@ const destinations = [
 
 
   const NavButtons = (
-    <nav aria-expanded={isExpanded} className="flex flex-col gap-6 w-20 aria-expanded:translate-y-[40px] [delay:600ms] transition ease-in-out duration-500">
+    <nav aria-expanded={isExpanded} className="flex flex-col gap-6 w-20 aria-expanded:translate-y-[40px] [delay:600ms] transition ease-in-out duration-700">
     <Link className='h-[56px] w-full flex flex-col gap-1 text-center' href="/">
           <div className='h-[32px] transition ease-in-out duration-300 mx-2 hover:border-solid border-2 border-black rounded-2xl text-center'>
-            <span className="material-symbols-outlined transition ease-in-out [animation-delay:600ms] hover:scale-[1.15] duration-300 [font-variation-settings:'FILL'_0,'wght'_200,'GRAD'_500,'opsz'_0] hover:[font-variation-settings:'FILL'_0,'wght'_400,'GRAD'_500,'opsz'_0] translate-y-[3px]" aria-hidden>home</span>
+            <span className="material-symbols-outlined transition ease-in-out [animation-delay:600ms] hover:scale-[1.15] duration-700 [font-variation-settings:'FILL'_0,'wght'_200,'GRAD'_500,'opsz'_0] hover:[font-variation-settings:'FILL'_0,'wght'_400,'GRAD'_500,'opsz'_0] translate-y-[3px]" aria-hidden>home</span>
       </div>
       <p>Home</p>
     </Link>
 
     <Link className='h-[56px] w-full flex flex-col gap-1 text-center' href="/playground">
       <div className='h-[32px] transition ease-in-out duration-300 mx-2 hover:border-solid border-2 border-black rounded-2xl text-center'>
-        <span className="material-symbols-outlined transition ease-in-out [animation-delay:600ms] hover:scale-[1.15] duration-300 [font-variation-settings:'FILL'_0,'wght'_200,'GRAD'_500,'opsz'_0] hover:[font-variation-settings:'FILL'_0,'wght'_400,'GRAD'_500,'opsz'_0] translate-y-[3px]" aria-hidden>toys_fan</span>
+        <span className="material-symbols-outlined transition ease-in-out [animation-delay:600ms] hover:scale-[1.15] duration-700 [font-variation-settings:'FILL'_0,'wght'_200,'GRAD'_500,'opsz'_0] hover:[font-variation-settings:'FILL'_0,'wght'_400,'GRAD'_500,'opsz'_0] translate-y-[3px]" aria-hidden>toys_fan</span>
       </div>
       <p>Playground</p>
     </Link>
@@ -213,7 +213,7 @@ export function AppBar(){
 
   return (<>
 
-  <header aria-expanded={isExpanded} className='fixed top-[-60px] left-0 w-[100dvw] h-[60px] bg-white shadow-[0_1px_2px] transition ease-in-out duration-700 aria-expanded:translate-y-full'>      
+  <header aria-expanded={isExpanded} className='fixed top-[-60px] left-0 w-[100dvw] h-[60px] bg-white shadow-[0_1px_2px] transition ease-in-out duration-[1100] aria-expanded:translate-y-full'>      
     <div className="flex items-center justify-between h-full px-4">
         <div className="flex items-center gap-4">
           <h1 className="text-3xl font-bold">Dynapack</h1>

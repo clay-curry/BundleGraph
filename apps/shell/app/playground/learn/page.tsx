@@ -105,9 +105,17 @@ export function TabsDemo() {
       value="tab4"
       asChild
     >
+      <div>
         <p>
-            Having derived the bundle, this section evaluates static and time-evolving properties of build artifacts most important for UX, DX, and program correctness throught the whole lifecycle of the program. 
+            This section discusses a handful of the most salient static and time-evolving properties of build artifacts, or bundles, relevant to UX, DX throught the whole lifecycle of the program. 
+            A firm control of the formation process of software bundle artifacts introduces the capacity for highly nuanced interactions with the compiler to enable the construction of arbitrary program artifacts, known as *compile-time meta-programming*.
+            
         </p>
+        <p>
+            A quality unique to the runtime language family is the degree of *run-time dynamicity* or the capacity for a program to spontaneously examine itself (introspection), alter its structure (self-modification), and alter its behavior (intercession) *during program execution*. Moreov
+        </p> 
+
+      </div>
     </Tabs.Content>
     <Tabs.Content
       className="grow p-5 bg-white rounded-b-md outline-none focus:shadow-[0_0_0_2px] focus:shadow-black"

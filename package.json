@@ -2,9 +2,9 @@
   "name": "dynapack",
   "private": true,
   "scripts": {
-    "build": "turbo build --filter shell",
-    "dev": "turbo dev --filter shell",
-    "start": "turbo start --filter shell",
+    "build": "turbo build --filter shell-radix-ui",
+    "dev": "turbo dev --filter shell-radix-ui",
+    "start": "turbo start --filter shell-radix-ui",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },

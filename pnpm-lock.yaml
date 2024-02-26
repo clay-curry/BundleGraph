@@ -21,7 +21,9 @@ importers:
         specifier: latest
         version: 1.12.4
 
-  apps/shell:
+  apps/monaco: {}
+
+  apps/shell-radix-ui:
     dependencies:
       '@geist-ui/core':
         specifier: ^2.3.8

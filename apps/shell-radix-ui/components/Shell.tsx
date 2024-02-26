@@ -25,8 +25,6 @@ const ColorPaletteIcon = ({className, ...props}: { className?: string }) => (
     </div>
 )
 
-
-
 export default function ThemeControls() {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -216,7 +214,7 @@ export function AppBar(){
   <header aria-expanded={isExpanded} className='fixed top-[-60px] left-0 w-[100dvw] h-[60px] bg-white shadow-[0_1px_2px] transition ease-in-out duration-[1100] aria-expanded:translate-y-full'>      
     <div className="flex items-center justify-between h-full px-4">
         <div className="flex items-center gap-4">
-          <h1 className="text-3xl font-bold">Dynapack</h1>
+          <h1 className="text-3xl font-bold">BundleGraph</h1>
         </div>
         <div className="flex items-center gap-4">
         </div>

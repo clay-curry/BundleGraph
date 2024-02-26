@@ -52,16 +52,19 @@ export function TabsDemo() {
     <Tabs.Content
       className="grow p-5 bg-white rounded-b-md outline-none focus:shadow-[0_0_0_2px] focus:shadow-black"
       value="tab1"
+      asChild
     >
+      <div className='mx-6'>
 
+        
       {/*
 
       <p className='m-2'>
-        Select your project. This will originate from one of the following three places: 
+      Select your project. This will originate from one of the following three places: 
       </p>
-
+      
       <p className='m-2'>
-        As you select a project, a web worker will configure your local system and runtime with the instrumentation required to be a viable host for collecting metrics about your build at various stages of the bundling process.
+      As you select a project, a web worker will configure your local system and runtime with the instrumentation required to be a viable host for collecting metrics about your build at various stages of the bundling process.
       
       </p>
 
@@ -70,11 +73,13 @@ export function TabsDemo() {
       </p>
     */}
       <FileExplorer />
+    </div>
 
     </Tabs.Content>
     <Tabs.Content
       className="grow p-5 bg-white rounded-b-md outline-none focus:shadow-[0_0_0_2px] focus:shadow-black"
       value="tab2"
+      asChild
     >
         <p>
             Before the bundler can begin to assemble the program, it must be configured. Though default configurations are provided, it is frequently if not most oftenly the case that the exact bundling needs of your project may require a custom configuration. Tremendous effort was invested in the following tools to make this process as painless and educational as possible.
@@ -83,17 +88,22 @@ export function TabsDemo() {
     <Tabs.Content
       className="grow p-5 bg-white rounded-b-md outline-none focus:shadow-[0_0_0_2px] focus:shadow-black"
       value="tab3"
+      asChild
     >
+      <div>
+
         <p className='m-2'>
           At this stage of program synthesis, a convergence of module-systems conventions, your bundler's configuration, the JavaScript runtime, and previous build artifacts are logically combined by the static-module-bundler, in <em>Graphical fashion</em>, to derive a newly assembled set of artifacts. All walks in the Graph trace backwards to one (or more) source files authored in possibly multiple languages; likewise, all walks in the forward direction of the graph terminate at one (or more) so-called <em>target files</em> (or <em>build artifacts</em>), often expressed in multiple programming languages.  
         </p><p className='m-2'>
           
           In addition to the build graph, additional relational structures between modules provide semantically meaningful information affecting the performance of the program, such as module dependencies, a render tree, state structure, lexical scope, and the interactions of distinct runtimes with multiple host environments. 
         </p>
+      </div>
     </Tabs.Content>
     <Tabs.Content
       className="grow p-5 bg-white rounded-b-md outline-none focus:shadow-[0_0_0_2px] focus:shadow-black"
       value="tab4"
+      asChild
     >
         <p>
             Having derived the bundle, this section evaluates static and time-evolving properties of build artifacts most important for UX, DX, and program correctness throught the whole lifecycle of the program. 
@@ -102,6 +112,7 @@ export function TabsDemo() {
     <Tabs.Content
       className="grow p-5 bg-white rounded-b-md outline-none focus:shadow-[0_0_0_2px] focus:shadow-black"
       value="tab5"
+      asChild
     >
         <p>
             Explore!

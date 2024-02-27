@@ -42,7 +42,8 @@ Ideas being considered
 
 ### Considering
 
-- [ ] identify [compiler optimization](https://en.wikipedia.org/wiki/Optimizing_compiler) strategies compatible with a static module bundler
+- [ ] identify [compiler optimization](https://en.wikipedia.org/wiki/Optimizing_compiler) strategies compatible with a static module bundlers
+- [ ] consider [refactoring](https://refactoring.com/) strategies for static module bundlers
 
 
 # Relatd Projects

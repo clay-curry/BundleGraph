@@ -1,9 +1,10 @@
 {
-  "name": "dynapack",
+  "name": "bundlegraph-monorepo",
   "private": true,
   "scripts": {
     "build": "turbo build --filter shell-radix-ui",
     "dev": "turbo dev --filter shell-radix-ui",
+    "dev:docs": "turbo dev --filter radix-site",
     "start": "turbo start --filter shell-radix-ui",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""

@@ -101,23 +101,20 @@ export const Header = ({ children, gitHubLink, ghost }: HeaderProps) => {
             </Flex>
 
             <div className={styles.HeaderProductLinksContainer}>
-              <HeaderProductLink
-                href="/"
-                active={router.pathname === '/' || router.pathname.startsWith('/themes')}
-              >
-                Themes
+              <HeaderProductLink href="/icons" active={router.pathname.startsWith('/icons')}>
+                Tooling
               </HeaderProductLink>
               <HeaderProductLink
                 href="/primitives"
                 active={router.pathname.startsWith('/primitives')}
               >
-                Primitives
+                Refactoring
               </HeaderProductLink>
-              <HeaderProductLink href="/icons" active={router.pathname.startsWith('/icons')}>
-                Icons
-              </HeaderProductLink>
-              <HeaderProductLink href="/colors" active={router.pathname.startsWith('/colors')}>
-                Colors
+              <HeaderProductLink
+                href="/meta"
+                active={router.pathname.startsWith('/metaprogramming')}
+              >
+                Metaprogramming
               </HeaderProductLink>
             </div>
 

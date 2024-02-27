@@ -24,7 +24,7 @@ export default function ThemesHome() {
     <MobileMenuProvider>
       <TitleAndMetaTags
         title="BundleGraph"
-        description="Components, icons, and colors for building high‑quality, accessible UI. Free and open-source."
+        description="Visual metaprogamming, automated refactoring, and dynamic bundle analysis built open source for VS Code."
         image="themes.png"
       />
 
@@ -222,7 +222,7 @@ const MainContent = ({
       <Box>
         <Box display={{ lg: 'none' }}>
           <SerifHeading mb="3">
-            Start building
+          Start bundling
             <br />
             your app now
           </SerifHeading>
@@ -232,9 +232,9 @@ const MainContent = ({
             mb="4"
             style={{ lineHeight: 0.9, '--heading-font-size-adjust': 1.3 } as React.CSSProperties}
           >
-            Start building
+            Start bundling
             <br />
-            your app now
+            your ideas now.
           </SerifHeading>
         </Box>
       </Box>
@@ -242,8 +242,7 @@ const MainContent = ({
       <Box style={{ maxWidth: 500 }}>
         <Text size={{ initial: '4', xs: '5' }}>
           <Text as="p" mb="5" color="gray">
-            An open source component library optimized for fast development, easy maintenance,
-            and accessibility. Just import and go—no configuration required.
+            A visual metaprogamming, automated refactoring, and dynamic bundle analyzer built open source for VS Code.
           </Text>
 
           <Box mb="5">

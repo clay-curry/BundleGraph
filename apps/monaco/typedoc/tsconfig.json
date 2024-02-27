@@ -1,0 +1,8 @@
+{
+	"compilerOptions": {
+		"module": "CommonJS",
+		"skipLibCheck": true
+	},
+	"include": ["../node_modules/monaco-editor/esm/vs/editor/editor.api.d.ts"],
+	"exclude": ["theme"]
+}

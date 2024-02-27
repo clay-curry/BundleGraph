@@ -109,9 +109,6 @@ module.exports = {
 			patterns: [{ from: "./static", to: "./" }],
 		}),
 		new CopyPlugin({
-			patterns: [{ from: "./typedoc/dist", to: "./typedoc/" }],
-		}),
-		new CopyPlugin({
 			patterns: [
 				{
 					from: "./node_modules/monaco-editor/",

@@ -29,9 +29,6 @@ export class PageNav extends React.Component {
 							>
 								Monarch
 							</Nav.Link>
-							<Nav.Link active={docs.isActive} href={docs.href}>
-								Documentation
-							</Nav.Link>
 						</Nav>
 
 						<Nav className="ms-auto">

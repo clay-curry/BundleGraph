@@ -17,69 +17,6 @@ export class Home extends React.Component {
 		return (
 			<Page>
 				<div className="container py-4">
-					<div className="p-5 mb-4 bg-light rounded-3">
-						<h1>Monaco - The Editor of the Web</h1>
-						<div className="row">
-							<div className="span12">
-								<br />
-								<p>
-									The Monaco Editor is the code editor that
-									powers{" "}
-									<a href="https://github.com/microsoft/vscode">
-										VS Code
-									</a>
-									. A good page describing the code editor's
-									features is{" "}
-									<a href="https://code.visualstudio.com/docs/editor/editingevolved">
-										here
-									</a>
-									. It is licensed under the MIT License and
-									supports Edge, Chrome, Firefox, Safari and
-									Opera. The Monaco editor is not supported in
-									mobile browsers or mobile web frameworks.
-									Find more information at the{" "}
-									<a href="https://github.com/microsoft/monaco-editor">
-										Monaco Editor repo
-									</a>
-									.
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div className="px-5 mb-0">
-						<h3>Download v{monacoEditorVersion}</h3>
-						<div className="row">
-							<div className="span12">
-								<br />
-								<p>
-									The latest released version is{" "}
-									<strong>{monacoEditorVersion}</strong>.
-								</p>
-								<p>
-									Download with this direct{" "}
-									<a
-										target="_blank"
-										href={`https://registry.npmjs.org/monaco-editor/-/monaco-editor-${monacoEditorVersion}.tgz`}
-									>
-										download link
-									</a>{" "}
-									or{" "}
-									<a href="https://www.npmjs.com/package/monaco-editor">
-										from npm
-									</a>
-									:
-								</p>
-								<pre>
-									<code>
-										npm install monaco-editor@
-										{monacoEditorVersion}
-									</code>
-								</pre>
-							</div>
-						</div>
-					</div>
-
 					<EditorDemo />
 
 					<DiffEditorDemo />
@@ -170,7 +107,7 @@ class EditorDemo extends React.Component {
 					<div className="col d-flex align-items-start">
 						<div className="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"></div>
 						<div>
-							<h2>IntelliSense, Validation</h2>
+							<h4>IntelliSense, Validation</h4>
 							<p>
 								Get completions and errors directly in the
 								browser for supported languages. Or write your
@@ -181,7 +118,7 @@ class EditorDemo extends React.Component {
 					<div className="col d-flex align-items-start">
 						<div className="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"></div>
 						<div>
-							<h2>Basic Syntax Colorization</h2>
+							<h4>Basic Syntax Colorization</h4>
 							<p>
 								Colorize code using our pre-built syntax
 								highlighting, or configure your own custom

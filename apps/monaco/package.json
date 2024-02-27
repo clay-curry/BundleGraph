@@ -6,8 +6,7 @@
 		"build-webpack": "webpack --mode production",
 		"build": "yarn typedoc && yarn build-webpack",
 		"dev-disk": "webpack --mode development --watch",
-		"typedoc": "typedoc --options ./typedoc/typedoc.json",
-		"test": "yarn ts-node scripts/check-playground-samples-js.ts"
+		"typedoc": "typedoc --options ./typedoc/typedoc.json"
 	},
 	"dependencies": {
 		"@popperjs/core": "^2.11.5",

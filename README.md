@@ -1,6 +1,6 @@
 # BundleGraph
 
-Welcome to the official repo for BundleGraph! This project is currently still early in its prerelease phase and will remain so until all final design goals are finalized. An experimental version of the project is available on the official VSCode Marketplace. 
+Welcome to the official repo for BundleGraph! This project is currently still in its prerelease phase and will remain so until its final design goals and MVP are finalized. An experimental version of the project is available on the official VSCode Marketplace. 
 
 This project aims to extend the current tooling ecosystem for static module bundlers and bring these tools directly to developers in the IDE. Similar to package managers, bundler tooling makes code reuse, just work.
 
